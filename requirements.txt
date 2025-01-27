@@ -1,0 +1,17 @@
+# Basic dependencies
+numpy
+pandas
+matplotlib
+tqdm
+scipy
+scikit-learn
+scikit-image
+python-dotenv
+
+
+
+# Main dependencies
+dwave-ocean-sdk==8.1.0
+opencv-python
+tensorflow
+keras
