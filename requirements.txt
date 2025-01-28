@@ -15,3 +15,4 @@ dwave-ocean-sdk==8.1.0
 opencv-python
 tensorflow
 keras
+gurobipy
