@@ -16,9 +16,9 @@ solver_token = os.getenv('SOLVER_TOKEN')
 
 
 
-BASE_DIR = 'drive/MyDrive/RMF-Binary/'
-RESULTS_DIR = BASE_DIR + 'results/'
-RUNS_DIR = BASE_DIR + 'runs/'
+BASE_DIR = ''
+RESULTS_DIR = BASE_DIR + 'results/binary/'
+RUNS_DIR = BASE_DIR + 'runs/binary/'
 
 def save_image(image_array, path):
     """
@@ -414,10 +414,4 @@ def run_qubo(X_noisy, l=0.8, order=1, simulate=False, label='RMF-Binary', show_s
         show_image(solution)
 
     return solution
-
-
-
-
-
-
 
