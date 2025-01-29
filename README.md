@@ -1,4 +1,4 @@
-# Quantum-RMF
+# Quantum Image Denoising as Random Markov Field Optimization
 
 Quantum-RMF is a research-oriented project that performs image denoising using quantum annealing. The task is framed as a Random Markov Field (RMF) combinatorial optimization problem. This repository contains code implementations, utilities, and experiment results for binary and discrete RMF models, showcasing how quantum annealing techniques can optimize RMFs for effective noise reduction in images.
 
@@ -26,6 +26,23 @@ cd Quantum-RMF
 pip install -r requirements.txt
 ```
 
+## Project Files
+```
+├── LICENSE                 # License file describing project permissions (CC Public Domain Mark 1.0) 
+├── README.md               # Documentation and instructions for the repository
+├── RMF_Binary.ipynb        # Jupyter Notebook demonstrating the Binary RMF model 
+├── RMF_Discrete.ipynb      # Jupyter Notebook demonstrating the Discrete RMF mode
+├── requirements.txt        # List of Python dependencies required for the project
+├── results                 # Directory to store experiment results
+│   ├── binary
+│   └── discrete
+├── runs                    # Directory to save runs of the models
+│   ├── binary
+│   └── discrete
+└── utils                   # Utility scripts used in RMF computations
+    ├── binary.py
+    └── discrete.py
+```
 ## Usage
 
 The main demonstrations of the models are provided in the Jupyter notebooks located in the root directory:
@@ -71,4 +88,4 @@ Contributions are welcome! If you'd like to improve this project, feel free to f
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This work is licensed under CC Public Domain Mark 1.0
